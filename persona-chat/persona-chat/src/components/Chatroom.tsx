@@ -187,8 +187,12 @@ export default function Chatroom({ character, onExit, onAdvanceCount, onScrap, s
                 src="/blink.png"
                 alt=""
                 aria-hidden="true"
-                className="absolute inset-0 w-full h-full object-contain object-bottom pointer-events-none transition-opacity"
+                className="absolute pointer-events-none transition-opacity object-contain"
                 style={{
+                  top: '30%',
+                  left: '20%',
+                  width: '60%',
+                  height: '18%',
                   opacity: isBlinking ? 1 : 0,
                   transitionDuration: isBlinking ? '30ms' : '60ms',
                 }}
