@@ -189,9 +189,9 @@ export default function Chatroom({ character, onExit, onAdvanceCount, onScrap, s
                 aria-hidden="true"
                 className="absolute pointer-events-none transition-opacity object-contain"
                 style={{
-                  top: '27%',
-                  left: '20%',
-                  width: '50%',
+                  top: '19%',
+                  left: '24%',
+                  width: '20%',
                   height: 'auto',
                   opacity: isBlinking ? 1 : 0,
                   transitionDuration: isBlinking ? '30ms' : '60ms',
