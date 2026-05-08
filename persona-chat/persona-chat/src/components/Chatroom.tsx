@@ -10,7 +10,7 @@ function useBlinkEffect() {
     let timer: ReturnType<typeof setTimeout>;
 
     const scheduleNextBlink = () => {
-      const delay = (4 + Math.random() * 5) * 1000;
+      const delay = (3 + Math.random() * 5) * 1000;
       timer = setTimeout(() => {
         setIsBlinking(true);
         setTimeout(() => {
@@ -190,7 +190,7 @@ export default function Chatroom({ character, onExit, onAdvanceCount, onScrap, s
                 className="absolute pointer-events-none transition-opacity object-contain"
                 style={{
                   top: '41%',
-                  left: '28%',
+                  left: '30%',
                   width: '32%',
                   height: 'auto',
                   opacity: isBlinking ? 1 : 0,
