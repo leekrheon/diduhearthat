@@ -10,7 +10,7 @@ function useBlinkEffect() {
     let timer: ReturnType<typeof setTimeout>;
 
     const scheduleNextBlink = () => {
-      const delay = (3 + Math.random() * 4) * 1000;
+      const delay = (0 + Math.random() * 1) * 1000;
       timer = setTimeout(() => {
         setIsBlinking(true);
         setTimeout(() => {
