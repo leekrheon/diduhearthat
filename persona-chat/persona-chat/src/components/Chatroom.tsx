@@ -190,8 +190,8 @@ export default function Chatroom({ character, onExit, onAdvanceCount, onScrap, s
                 className="absolute pointer-events-none transition-opacity object-contain"
                 style={{
                   top: '41%',
-                  left: '33%',
-                  width: '32%',
+                  left: '32%',
+                  width: '31%',
                   height: 'auto',
                   opacity: isBlinking ? 1 : 0,
                   transitionDuration: isBlinking ? '30ms' : '60ms',
